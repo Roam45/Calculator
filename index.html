@@ -5,51 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crude Calculator</title>
     <style>
-        /* Overall body style with linear gradient background */
+        /* Overall body style */
         body {
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #FFA500, #FF7F32); /* Orange to a lighter orange */
-            color: #333;
+            font-family: 'Helvetica Neue', sans-serif;
+            background-color: #181818; /* Dark background for sleek look */
+            color: white;
             margin: 0;
             padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh; /* Full height of the screen */
+            height: 100vh;
             text-align: center;
         }
 
         /* Centered content box style */
         .content-box {
-            background-color: white; /* White box */
+            background-color: #2c2c2c; /* Dark gray box */
             padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
             width: 80%;
             max-width: 600px;
             animation: fadeIn 2s ease-in-out;
         }
 
         h1 {
-            font-size: 2.5em;
-            color: #2e8b57;
+            font-size: 3em;
+            color: #ff8c00; /* Bright orange */
             margin: 0;
         }
 
         h2 {
             font-size: 1.5em;
-            color: #555;
+            color: #999;
             margin-top: 0;
         }
 
         p {
-            color: #777;
+            color: #ddd;
             font-size: 1em;
             margin-top: 20px;
         }
 
         button {
-            background-color: #4CAF50;
+            background-color: #ff8c00; /* Orange button */
             color: white;
             border: none;
             padding: 15px 32px;
@@ -64,11 +64,11 @@
         }
 
         button:hover {
-            background-color: #45a049;
+            background-color: #e67e22; /* Slightly darker orange */
         }
 
         button:active {
-            background-color: #388e3c;
+            background-color: #d35400;
         }
 
         a {
@@ -87,17 +87,25 @@
             }
         }
 
+        /* Style for the image */
+        .logo-image {
+            width: 100px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
     </style>
 </head>
 <body>
 
     <div class="content-box">
+        <img src="e.png" alt="Logo" class="logo-image"> <!-- PNG image added -->
         <h1>Crude Calculator</h1>
         <h2>By Roam45</h2>
         <a href="https://github.com/Roam45/Calculator/raw/main/calcu.exe" download="calcu.exe">
             <button>Download Crude Calculator</button>
         </a>
-        <p>Made in around 15 hours to teach myself the very basics of c++</p>
+        <p>Made in around 15 hours to teach myself the very basics of C++</p>
         <p>Copyright Roam45 2024</p>
         <a href="https://github.com/Roam45/Calculator/main/calcu.cpp" download="calcu.cpp">
             <button>Copy Code</button>
